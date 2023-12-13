@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: page
+layout: Page
 ---
 
 # Human Ethnicity Recognizer
