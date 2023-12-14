@@ -26,3 +26,7 @@ Classifications are : <br/>
 9:Indigenous Australians people
 
 10:African peoplegit
+
+<script>
+  window.location.href = 'Ethnicity_recognizer.html';
+</script>
