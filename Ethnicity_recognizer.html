@@ -3,19 +3,10 @@ titlle: Ethnicity Recognizer
 layout: page
 ---
 
-<input id="photo" type="file">
-<div id="results"></div>
-<script>
-    import { client } from "@gradio/client";
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.8.0/gradio.js"
+></script>
 
-    const response_0 = await fetch("https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png");
-    const exampleImage = await response_0.blob();
-						
-    const app = await client("https://mmchowdhury-human-ethnicity-classifier.hf.space/--replicas/m7ggs/");
-    const result = await app.predict("/predict", [
-				exampleImage, 	// blob in 'image' Image component
-	    ]);
+<gradio-app src="https://mmchowdhury-human-ethnicity-classifier.hf.space"></gradio-app>
 
-    console.log(result.data);
-
-</script>
