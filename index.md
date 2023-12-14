@@ -27,6 +27,5 @@ Classifications are : <br/>
 
 10:African peoplegit
 
-<script>
-  window.location.href = 'Ethnicity_recognizer.html';
-</script>
+[Go to Ethnicity Recognizer](Ethnicity_recognizer.html)
+
