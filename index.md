@@ -2,6 +2,7 @@
 title: Home
 layout: Page
 ---
+[Go to Ethnicity Recognizer](Ethnicity_recognizer.html)
 
 # Human Ethnicity Recognizer
 Can Classify between 10 different ethnicity peoples <br/>
@@ -27,5 +28,4 @@ Classifications are : <br/>
 
 10:African peoplegit
 
-[Go to Ethnicity Recognizer](Ethnicity_recognizer.html)
 
